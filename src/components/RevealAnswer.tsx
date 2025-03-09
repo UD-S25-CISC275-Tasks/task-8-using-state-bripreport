@@ -11,7 +11,8 @@ export function RevealAnswer(): React.JSX.Element {
                 }}
             >
                 Reveal Answer
-            </Button>
+            </Button>{" "}
+            {"\t"}
             {visible && "42"}
         </span>
     );
